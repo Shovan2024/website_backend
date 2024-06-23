@@ -40,7 +40,7 @@ app.use("/api/v1/user", userRouter);
 app.use("/api/v1/timeline", timelineRouter);
 app.use("/api/v1/message", messageRouter);
 app.use("/api/v1/skill", skillRouter);
-app.use("/api/v1/", softwareApplicationRouter);
+app.use("/api/v1/softwareapplication", softwareApplicationRouter);
 app.use("/api/v1/project", projectRouter);
 
 dbConnection();
