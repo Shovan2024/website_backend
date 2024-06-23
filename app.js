@@ -16,7 +16,7 @@ dotenv.config({ path: "./config.env" });
 const app = express();
 
 const corsOptions = {
-  origin: [process.env.PORTFOLIO_URL, process.env.DASHBOARD_URL],
+  origin: [process.env.PORTFOLIO_URL, process.env.DASHBOARD_URL, process.env.WEBSITE ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 };
